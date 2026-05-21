@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Pricing | AutoFill Pro</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;600;700;800&amp;family=Inter:wght@400;500;600&amp;family=JetBrains+Mono:wght@500&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .pro-glow {
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+        }
+    </style>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "surface-container-high": "#e6e8ea",
+                      "on-tertiary-fixed-variant": "#004395",
+                      "surface-container-highest": "#e0e3e5",
+                      "surface-bright": "#f7f9fb",
+                      "on-primary": "#ffffff",
+                      "on-surface-variant": "#45464d",
+                      "on-primary-fixed": "#131b2e",
+                      "surface-tint": "#565e74",
+                      "primary-container": "#131b2e",
+                      "outline-variant": "#c6c6cd",
+                      "on-tertiary-container": "#3980f4",
+                      "on-secondary-fixed": "#002113",
+                      "secondary-fixed": "#6ffbbe",
+                      "on-secondary-container": "#00714d",
+                      "tertiary-container": "#001a42",
+                      "surface-container": "#eceef0",
+                      "secondary": "#006c49",
+                      "on-secondary-fixed-variant": "#005236",
+                      "inverse-primary": "#bec6e0",
+                      "primary": "#000000",
+                      "on-tertiary": "#ffffff",
+                      "surface-container-low": "#f2f4f6",
+                      "surface": "#f7f9fb",
+                      "on-primary-container": "#7c839b",
+                      "surface-container-lowest": "#ffffff",
+                      "secondary-fixed-dim": "#4edea3",
+                      "tertiary": "#000000",
+                      "inverse-surface": "#2d3133",
+                      "on-surface": "#191c1e",
+                      "outline": "#76777d",
+                      "background": "#f7f9fb",
+                      "tertiary-fixed-dim": "#adc6ff",
+                      "surface-variant": "#e0e3e5",
+                      "surface-dim": "#d8dadc",
+                      "on-background": "#191c1e",
+                      "primary-fixed": "#dae2fd",
+                      "on-tertiary-fixed": "#001a42",
+                      "error": "#ba1a1a",
+                      "on-error-container": "#93000a",
+                      "inverse-on-surface": "#eff1f3",
+                      "primary-fixed-dim": "#bec6e0",
+                      "on-error": "#ffffff",
+                      "on-primary-fixed-variant": "#3f465c"
+              },
+              "borderRadius": {
+                      "DEFAULT": "0.125rem",
+                      "lg": "0.25rem",
+                      "xl": "0.5rem",
+                      "full": "0.75rem"
+              },
+              "spacing": {
+                      "margin-mobile": "16px",
+                      "gutter": "24px",
+                      "xl": "32px",
+                      "md": "16px",
+                      "lg": "24px",
+                      "margin-desktop": "40px",
+                      "base": "4px",
+                      "3xl": "64px",
+                      "2xl": "48px",
+                      "xs": "4px",
+                      "sm": "8px"
+              },
+              "fontFamily": {
+                      "headline-md": ["Hanken Grotesk"],
+                      "body-lg": ["Inter"],
+                      "label-md": ["JetBrains Mono"],
+                      "headline-lg": ["Hanken Grotesk"],
+                      "headline-lg-mobile": ["Hanken Grotesk"],
+                      "button-text": ["Inter"],
+                      "display-lg": ["Hanken Grotesk"],
+                      "body-sm": ["Inter"],
+                      "body-md": ["Inter"]
+              },
+              "fontSize": {
+                      "headline-md": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+                      "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}],
+                      "label-md": ["12px", {"lineHeight": "16px", "letterSpacing": "0.05em", "fontWeight": "500"}],
+                      "headline-lg": ["32px", {"lineHeight": "40px", "letterSpacing": "-0.01em", "fontWeight": "600"}],
+                      "headline-lg-mobile": ["28px", {"lineHeight": "36px", "fontWeight": "600"}],
+                      "button-text": ["14px", {"lineHeight": "20px", "fontWeight": "600"}],
+                      "display-lg": ["48px", {"lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                      "body-sm": ["14px", {"lineHeight": "20px", "fontWeight": "400"}],
+                      "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}]
+              }
+            },
+          },
+        }
+    </script>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background text-on-surface font-body-md selection:bg-secondary-container">
+<!-- TopAppBar -->
+<header class="bg-surface-container-lowest border-b border-outline-variant fixed top-0 left-0 w-full z-50">
+<div class="flex justify-between items-center w-full px-margin-mobile md:px-margin-desktop max-w-[1280px] mx-auto h-16">
+<div class="flex items-center gap-sm">
+<span class="material-symbols-outlined text-primary" style="font-variation-settings: 'FILL' 1;">speed</span>
+<span class="text-headline-md font-headline-md font-bold text-on-surface">AutoFill Pro</span>
+</div>
+<div class="flex items-center gap-md">
+<nav class="hidden md:flex gap-lg">
+<a class="text-on-surface-variant font-button-text hover:text-primary transition-colors" href="#">Features</a>
+<a class="text-primary border-b-2 border-primary font-button-text transition-colors" href="#">Pricing</a>
+<a class="text-on-surface-variant font-button-text hover:text-primary transition-colors" href="#">Docs</a>
+</nav>
+<button class="bg-primary text-on-primary px-lg py-sm rounded-lg font-button-text hover:opacity-90 transition-all">Apply Now</button>
+</div>
+</div>
+</header>
+<main class="pt-32 pb-2xl px-margin-mobile">
+<!-- Hero Section -->
+<section class="max-w-[800px] mx-auto text-center mb-3xl">
+<h1 class="font-headline-lg-mobile md:font-headline-lg text-headline-lg-mobile md:text-headline-lg mb-md">Plans built for precision.</h1>
+<p class="text-body-lg font-body-lg text-on-surface-variant max-w-[600px] mx-auto">Accelerate your career journey with tools designed for high-performance job seekers. Choose the tier that matches your ambition.</p>
+</section>
+<!-- Pricing Tiers: Vertical Stack for Mobile focus, Grid for Desktop -->
+<div class="max-w-[1000px] mx-auto grid grid-cols-1 md:grid-cols-2 gap-lg items-start">
+<!-- Starter Tier -->
+<div class="bg-surface-container-lowest border border-outline-variant rounded-xl p-xl flex flex-col h-full hover:border-outline transition-colors group">
+<div class="mb-xl">
+<span class="font-label-md text-label-md text-on-surface-variant px-md py-xs bg-surface-container rounded-full uppercase">Starter</span>
+<div class="mt-lg flex items-baseline gap-xs">
+<span class="font-headline-lg text-headline-lg">$0</span>
+<span class="font-body-md text-on-surface-variant">/mo</span>
+</div>
+<p class="mt-sm text-body-sm text-on-surface-variant">Perfect for trying out the core features of AutoFill Pro.</p>
+</div>
+<div class="flex-grow space-y-md mb-xl">
+<div class="flex items-center gap-sm">
+<span class="material-symbols-outlined text-secondary text-[20px]" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+<span class="text-body-md">50 applications / month</span>
+</div>
+<div class="flex items-center gap-sm text-on-surface-variant">
+<span class="material-symbols-outlined text-secondary text-[20px]" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+<span class="text-body-md">Basic parsing</span>
+</div>
+<div class="flex items-center gap-sm text-on-surface-variant">
+<span class="material-symbols-outlined text-outline-variant text-[20px]">cancel</span>
+<span class="text-body-md">Manual resume management</span>
+</div>
+<div class="flex items-center gap-sm text-on-surface-variant">
+<span class="material-symbols-outlined text-outline-variant text-[20px]">cancel</span>
+<span class="text-body-md">Community support</span>
+</div>
+</div>
+<button class="w-full py-md border border-primary text-primary font-button-text rounded-lg hover:bg-surface-container-low transition-all">Get Started</button>
+</div>
+<!-- Pro Tier (Highlighted) -->
+<div class="relative bg-surface-container-lowest border-2 border-primary rounded-xl p-xl flex flex-col h-full pro-glow transform md:scale-105 z-10">
+<div class="absolute -top-4 left-1/2 -translate-x-1/2 bg-primary text-on-primary px-lg py-xs rounded-full font-label-md text-label-md uppercase tracking-wider">
+                    Popular
+                </div>
+<div class="mb-xl">
+<span class="font-label-md text-label-md text-on-tertiary-container px-md py-xs bg-tertiary-fixed rounded-full uppercase">Pro</span>
+<div class="mt-lg flex items-baseline gap-xs">
+<span class="font-headline-lg text-headline-lg">$12</span>
+<span class="font-body-md text-on-surface-variant">/mo</span>
+</div>
+<p class="mt-sm text-body-sm text-on-surface-variant">Everything you need to automate your entire job hunt.</p>
+</div>
+<div class="flex-grow space-y-md mb-xl">
+<div class="flex items-center gap-sm">
+<span class="material-symbols-outlined text-secondary text-[20px]" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+<span class="text-body-md font-semibold">Unlimited applications</span>
+</div>
+<div class="flex items-center gap-sm">
+<span class="material-symbols-outlined text-secondary text-[20px]" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+<span class="text-body-md">AI Resume optimization</span>
+</div>
+<div class="flex items-center gap-sm">
+<span class="material-symbols-outlined text-secondary text-[20px]" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+<span class="text-body-md">Smart-form auto-detection</span>
+</div>
+<div class="flex items-center gap-sm">
+<span class="material-symbols-outlined text-secondary text-[20px]" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+<span class="text-body-md">Priority email &amp; chat support</span>
+</div>
+</div>
+<button class="w-full py-md bg-primary text-on-primary font-button-text rounded-lg hover:opacity-90 transition-all shadow-lg">Upgrade to Pro</button>
+</div>
+</div>
+<!-- FAQ Section -->
+<section class="max-w-[800px] mx-auto mt-3xl">
+<h2 class="font-headline-md text-headline-md text-center mb-2xl">Frequently Asked Questions</h2>
+<div class="space-y-lg">
+<div class="bg-surface-container-low p-lg rounded-xl">
+<h3 class="font-button-text text-body-md mb-xs">How does the AI Resume optimization work?</h3>
+<p class="text-body-sm text-on-surface-variant">Our AI analyzes job descriptions in real-time and suggests minor semantic adjustments to your resume, ensuring higher match scores with ATS systems while maintaining 100% accuracy.</p>
+</div>
+<div class="bg-surface-container-low p-lg rounded-xl">
+<h3 class="font-button-text text-body-md mb-xs">Is my personal data secure?</h3>
+<p class="text-body-sm text-on-surface-variant">Absolutely. AutoFill Pro uses AES-256 encryption. Your resume data is stored locally on your device by default; only metadata for the filling process is processed in our secure cloud environment.</p>
+</div>
+<div class="bg-surface-container-low p-lg rounded-xl">
+<h3 class="font-button-text text-body-md mb-xs">Can I cancel my Pro subscription anytime?</h3>
+<p class="text-body-sm text-on-surface-variant">Yes. You can cancel through your dashboard with one click. You will maintain Pro access until the end of your current billing cycle.</p>
+</div>
+</div>
+</section>
+<!-- CTA Section -->
+<section class="max-w-[1280px] mx-auto mt-3xl">
+<div class="bg-primary-container text-on-primary-fixed p-2xl rounded-xl flex flex-col md:flex-row items-center justify-between gap-xl overflow-hidden relative">
+<div class="relative z-10 text-center md:text-left">
+<h2 class="font-headline-lg-mobile md:font-headline-lg text-white mb-sm">Ready to stop typing and start applying?</h2>
+<p class="text-on-primary-container">Join 50,000+ professionals using Omega to land their dream roles.</p>
+</div>
+<button class="relative z-10 bg-secondary-fixed text-on-secondary-fixed px-3xl py-lg rounded-full font-button-text hover:bg-secondary-fixed-dim transition-all whitespace-nowrap">Install Extension</button>
+<!-- Atmospheric background element -->
+<div class="absolute right-0 top-0 w-64 h-64 bg-secondary-fixed opacity-10 blur-3xl rounded-full -mr-20 -mt-20"></div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-surface-container-lowest border-t border-outline-variant">
+<div class="flex flex-col md:flex-row justify-between items-center py-xl px-margin-mobile md:px-margin-desktop w-full max-w-[1280px] mx-auto gap-lg">
+<div class="flex flex-col items-center md:items-start gap-xs">
+<div class="flex items-center gap-sm">
+<span class="material-symbols-outlined text-primary" style="font-variation-settings: 'FILL' 1;">speed</span>
+<span class="font-headline-md text-headline-md text-primary">AutoFill Pro</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">© 2024 AutoFill Pro. Precision in every application.</p>
+</div>
+<div class="flex gap-lg">
+<a class="font-body-sm text-body-sm text-on-surface-variant hover:underline hover:text-primary transition-opacity" href="#">Privacy Policy</a>
+<a class="font-body-sm text-body-sm text-on-surface-variant hover:underline hover:text-primary transition-opacity" href="#">Terms of Service</a>
+<a class="font-body-sm text-body-sm text-on-surface-variant hover:underline hover:text-primary transition-opacity" href="#">Support</a>
+</div>
+</div>
+</footer>
+<!-- Interactive script for FAQ expansion (Optional enhancement) -->
+<script>
+        // Simple hover/active effect for cards to simulate "Precision"
+        document.querySelectorAll('.pricing-card').forEach(card => {
+            card.addEventListener('mouseenter', () => {
+                card.classList.add('shadow-xl');
+            });
+            card.addEventListener('mouseleave', () => {
+                card.classList.remove('shadow-xl');
+            });
+        });
+    </script>
+</body></html>
